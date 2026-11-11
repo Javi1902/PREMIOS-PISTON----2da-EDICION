@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(#5492c5, #78b8c0);
+        font-family: sans-serif;
+}
+
+h1 {
+    color: #12202b;
+    text-align: center;
+}
+
+.textSmall {
+    font-size: 10px;
+    margin: auto;
+}
+
+.introduccion {
+    background-color:#32587788 ;
+    padding: 20px;
+    border: #2e526d solid 3px;
+    border-radius: 2px;
+}
+
+.infoDiv {
+    background-color:#32587788 ;
+    padding: 20px;
+    border: #2e526d solid 3px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
