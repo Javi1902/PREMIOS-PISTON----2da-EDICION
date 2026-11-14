@@ -8,10 +8,6 @@ h1 {
     text-align: center;
 }
 
-.textSmall {
-    font-size: 10px;
-    margin: auto;
-}
 
 .introduccion {
     background-color:#32587788 ;
@@ -26,4 +22,21 @@ h1 {
     border: #2e526d solid 3px;
     border-radius: 2px;
     margin-top: 20px;
+}
+
+.infoDiv * figcaption {
+    font-size: 10px;
+}
+
+.subtitle {
+    font-weight:800;
+}
+
+.menu, a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: #334350;
+    font-weight: 700;
 }
