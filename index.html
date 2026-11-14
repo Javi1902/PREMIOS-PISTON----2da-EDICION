@@ -1,23 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Premios Piston --- Parte II</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1 class="title">Premios Piston --- 2da Edicion</h1>
-    <div class="introduccion">
-        <h2>¿Que son los premios Piston --- 2da edición?</h2>
-        <p>los premios piston (2da Edicion) son premios este año organizado por Javier y Ariana para premiar a muchas personas por distintas categorías (ej. mejor en matematica, mas organizado, etc)</p>
-    </div>
-    <div class="infoDiv">
-        <h2>¿Como hiciste esto?</h2>
-        <p> Escribiendo mucho, lo empeze el 4 de noviembre a las 6:00 </p>
-        <img src="fotos/foto1.png" width="450px" height="300px" loading="lazy">
-        <p class="textSmall">esto parece dificil pero es super facil solo tengo que escribir.</p>
-    </div>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Premios Piston --- 2da Edicion</h1>
+    </header>
+      <nav>
+
+    
+    <ul class="menu">
+      <li><a href="#intro" onclick="closeMenu()">Introduccion</a></li>
+      <li><a href="#inDiv" onclick="closeMenu()">Info</a></li>
+      <li><a href="#catNom" onclick="closeMenu()">Categorías y Nominados</a></li>
+    </ul>
+  </nav>
+    <section class="introduccion" id="intro">
+      <h2 class="subtitle">¿Que son los premios Piston --- 2da edición?</h2>
+      <p>
+        los premios piston (2da Edicion) son premios este año organizado por
+        Javier y Ariana para premiar a muchas personas por distintas categorías
+        (ej. mejor en matematica, mas organizado, etc)
+      </p>
+    </section>
+    <section class="infoDiv" id="inDiv">
+      <h2 class="subtitle">¿Como hiciste esto?</h2>
+      <p>Escribiendo mucho, lo empeze el 4 de noviembre a las 6:00</p>
+      <figure>
+        <img
+          src="fotos/foto1.png"
+          width="450px"
+          height="300px"
+          loading="lazy"
+        />
+        <figcaption>Haciendolo la pagina</figcaption>
+      </figure>
+    </section>
+    <h2 class="subtitle" >CATEGORIAS Y SUS NOMINADOS</h2>
+    <section class="categoriasNominados" id="catNom">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+        mollitia nesciunt officia dolores tempora, eveniet dolorum eligendi
+        nobis architecto necessitatibus sit blanditiis incidunt. Sunt magnam
+        delectus totam, saepe repellat ad!
+      </p>
+    </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
