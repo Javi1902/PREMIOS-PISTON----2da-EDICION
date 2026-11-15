@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0" />
     <title>Premios Piston --- Parte II</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <h1 class="title">Premios Piston --- 2da Edicion</h1>
-    </header>
       <nav>
 
     
     <ul class="menu">
       <li><a href="#intro" onclick="closeMenu()">Introduccion</a></li>
       <li><a href="#inDiv" onclick="closeMenu()">Info</a></li>
-      <li><a href="#catNom" onclick="closeMenu()">Categorías y Nominados</a></li>
+      <li><a href="#catNom" onclick="closeMenu()">Categorías</a></li>
     </ul>
   </nav>
+  </header>
     <section class="introduccion" id="intro">
       <h2 class="subtitle">¿Que son los premios Piston --- 2da edición?</h2>
       <p>
@@ -33,21 +33,209 @@
       <figure>
         <img
           src="fotos/foto1.png"
-          width="450px"
-          height="300px"
+          width="550px"
+          height="350px"
           loading="lazy"
         />
         <figcaption>Haciendolo la pagina</figcaption>
       </figure>
     </section>
-    <h2 class="subtitle" >CATEGORIAS Y SUS NOMINADOS</h2>
-    <section class="categoriasNominados" id="catNom">
+    <h2 class="subtitle" id="catNom">CATEGORIAS Y SUS NOMINADOS</h2>
+    <section class="categoriasNominados" >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
         mollitia nesciunt officia dolores tempora, eveniet dolorum eligendi
         nobis architecto necessitatibus sit blanditiis incidunt. Sunt magnam
         delectus totam, saepe repellat ad!
       </p>
+      <details class="caja-desplegable">
+        <summary>Mas ordenado<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido mas ordenada a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Rafael</li>
+                <li>Sofia</li>
+                <li>Milena</li>
+                <li>Fiorela</li>
+                <li>Roberto</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas Rápido<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido mas rapida a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Angel (bala)</li>
+                <li>Alvaro</li>
+                <li>Sanchez</li>
+                <li>Noli</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Peor Letra<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha tenido peor letra a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Alessando (chino)</li>
+                <li>Tavo</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor duo<br> <p class="cajaDesc">Este premio se le entrega a las personas que han sido mejores amigos a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Duos Nominados:</p>
+            <ul>
+                <li>Nicole y Kimberly</li>
+                <li>Facundo (tengue) y Gallardo (bala)</li>
+                <li>Roberto y Emmanuelle (noli)</li>
+                <li>Alessandro (chino) y Alvaro</li>
+                <li>ALessando y Gustavo (tavo)</li>
+                <li>Roberto y Javier</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor trio<br> <p class="cajaDesc">Este premio se le entrega a las personas que han sido mejores trios a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>trios Nominados:</p>
+            <ul>
+                <li>Facundo (tengue), Gallardo (bala), y Javier (sigma)</li>
+                <li>Gustavo (tavo), Vercelli (chongas) y Alessandro (chino)</li>
+                <li>Emannuele (noli), Roberto y Javier</li>
+                <li>Alessandro (chino) y Alvaro</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor Dibujo<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido la mejor dibujante a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Sofia</li>
+                <li>Emmanuelle (noli)</li>
+                <li>Portal</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor Fútbol<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido el mejor jugador de Futbol a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Alessando (chino)</li>
+                <li>Alvaro</li>
+                <li>D' Alessio</li>
+                <li>Angel (bala)</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor Voley<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido la mejor jugadora de Voley a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Adubell</li>
+                <li>Fabian</li>
+                <li>PLACEHOLDER (por añadir...)</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mejor Grupo de Amigos<br> <p class="cajaDesc">Este premio se le entrega a las personas que han tenido el mejor grupo de amigos a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Grupos Nominados:</p>
+            <ul>
+                <li>Los tres y franco (facundo, gallardo, Javier y Franco)</li>
+                <li>PLACEHOLDER (por añadir...)</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas lento<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido el mas lento a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Gustavo (tavo)</li>
+                <li>Vercelli (chongas)</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas aura<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha tenido mas momentos de aura a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Nicole</li>
+                <li>Facundo (tengue)</li>
+                <li>Angel (bala)</li>
+                <li>Javier</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas Chistoso<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido la mas chistosa a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Facundo</li>
+                <li>Angel (bala)</li>
+                <li>Chino</li>
+                <li>Javier</li>
+                <li>Noli</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas Dormilon<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha la mas dormilona a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Franco (keke)</li>
+                <li>Coca</li>
+                <li>Chino</li>
+                <li>Alma</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas molestoso<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha sido la mas molestosa a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Javier</li>
+                <li>D' Alessio</li>
+                <li>Tavo</li>
+            </ul>
+        </div>
+    </details>
+    <details class="caja-desplegable">
+        <summary>Mas Peleas<br> <p class="cajaDesc">Este premio se le entrega a la persona que ha tenido mas peleas a lo largo del año</p></summary>
+        
+        <div class="contenido-desplegable">
+            <p>Nominados:</p>
+            <ul>
+                <li>Chino y tavo</li>
+                <li>....</li>
+            </ul>
+        </div>
+    </details>
     </section>
     <script src="script.js"></script>
   </body>
