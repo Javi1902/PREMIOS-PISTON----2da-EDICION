@@ -21,8 +21,8 @@ h1 {
 
 .introduccion {
     background-color:#32587788 ;
-    padding: 20px;
-    border: #2e526d solid 3px;
+    padding: 15px;
+    border: #2b414e5d, solid, 3px;
     border-radius: 2px;
     box-shadow: 0 3px 5px #26465f;
     color: #0e1e2b;
@@ -31,9 +31,9 @@ h1 {
 .infoDiv {
     background: linear-gradient(#32587788, #2e526d) ;
     padding: 15px;
-    border: #2e526d solid 3px;
+    border: #2b414e5d, solid, 3px;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 15px;
     box-shadow: 0 3px 5px #26465f;
     color: #0e1e2b;
 }
@@ -66,6 +66,7 @@ nav {
     z-index: 100;
     backdrop-filter: blur(8px);
     padding: 2px 15px;
+    margin:auto;
 }
 
 .menu, a {
@@ -83,12 +84,15 @@ nav {
 
 .menu {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 0;
     margin: 15px 0;
+    list-style: none;
 }
+
+
 
 img {
     max-inline-size: 85%;
@@ -98,7 +102,7 @@ img {
 .caja-desplegable {
     padding: 20px;
     background: linear-gradient(#32587788, #456681);
-    border: #4b728b5d, solid, 3px;
+    border: #2b414e5d, solid, 3px;
     border-radius: 2px;
     margin-top: 20px;
     box-shadow: 0 3px 5px #26465f;
@@ -161,4 +165,64 @@ summary {
 h2 {
     margin-top: 35px;
     color: #0e1e2b;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 25px 20px 15px 20px;
+    background: linear-gradient(#32587788, #2e526d);
+    border: #2b414e5d solid 3px;
+    border-radius: 2px;
+    box-shadow: 0 3px 5px #26465f;
+    color: #0e1e2b;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footerSec {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footerSec h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0e1e2b;
+}
+
+.footerSec p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+    color: #12283a;
+}
+
+footer a {
+    display: inline;
+    color: #0e1e2b;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #1c3d57;
+}
+
+.littleFooter {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 2px solid #2b414e5d;
+    text-align: center;
+    color: #12283a;
+    font-weight: 600;
 }
