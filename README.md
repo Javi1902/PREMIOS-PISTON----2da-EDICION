@@ -8,6 +8,6 @@ Los premios pistón es un proyecto creado por mí para premiar a diferentes comp
 Porque es divertido y me gusta hacer páginas así para entretenerme a mí y a mis amigos
 
 # ¿COMO ENTRO A LOS PREMIOS PISTÓN?
-Puedes presionar estos links : ppsegunda.vercel.app - https://javi1902.github.io/PREMIOS-PISTON----2da-EDICION/
+Puedes presionar estos links : https://ppsegunda.vercel.app - https://javi1902.github.io/PREMIOS-PISTON----2da-EDICION/
 
 O puedes darle donde dice "código" o "code" y descargarlo como ZIP
